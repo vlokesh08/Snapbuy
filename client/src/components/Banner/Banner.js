@@ -4,8 +4,8 @@ import Slider from "react-slick";
 import {
   bannerImgOne,
   bannerImgTwo,
-  bannerImgThree,
 } from "../../assets/images";
+import mogga from "../../assets/images/banner/bannerImgThree.jpg";
 import Image from "../designLayouts/Image";
 
 const Banner = () => {
@@ -114,7 +114,7 @@ const Banner = () => {
         </Link>
         <Link to="/offer">
           <div>
-            <Image imgSrc={bannerImgThree} />
+            <Image className="h-[550px] w-full"imgSrc={mogga} />
           </div>
         </Link>
       </Slider>

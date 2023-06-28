@@ -28,7 +28,7 @@ function NewRequest() {
         }
     };
   return (
-    <div>
+    <div className="container">
         <form onSubmit={handleSubmit}>
             <div class="mb-6">
                 <label for="email" class="block mb-2 text-sm font-medium  dark:text-black">Your Name</label>

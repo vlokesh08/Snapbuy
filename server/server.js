@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 
 // MongoDB
 mongoose
-  .connect('mongodb+srv://snapbuy:snapbuy@cluster0.iimigzp.mongodb.net/?retryWrites=true&w=majority', {
+  .connect(process.env.MONGOURL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })

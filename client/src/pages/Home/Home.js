@@ -28,7 +28,7 @@ const Home = () => {
               <SideOffers />
             </div>
             <div className="w-full mdl:w-[80%] lgl:w-[75%] h-full flex flex-col gap-10">
-              <SpecialOffers itemsPerPageFromBanner={itemsPerPageFromBanner} />
+              {/* <SpecialOffers itemsPerPageFromBanner={itemsPerPageFromBanner} /> */}
               <Pagination itemsPerPage={itemsPerPage} />
             </div>
           </div>

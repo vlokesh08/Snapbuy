@@ -56,7 +56,7 @@ const NewArrivals = () => {
   };
   return (
     <div className="w-full pb-16">
-      <Heading heading="New Arrivals" />
+      <div className="m-4 p-4 flex gap-5">
       <Link to="/newelement">
       <button 
         onClick={openNew()}
@@ -67,6 +67,8 @@ const NewArrivals = () => {
         onClick={openNew()}
       class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add new Request</button>
       </Link>
+      </div>
+      <Heading heading="New Arrivals" />
       <Slider {...settings}>
         <div className="px-2">
           <Product
